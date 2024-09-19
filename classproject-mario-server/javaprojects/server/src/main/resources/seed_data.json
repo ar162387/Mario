@@ -1,0 +1,209 @@
+{
+  "users": [
+    {
+      "username": "jane_smith",
+      "password": "password123",
+      "email": "jane.smith@example.com",
+      "profile": {
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "date_of_birth": "1990-05-15",
+        "bio": "Avid gamer and software developer",
+        "favorite_game": "Snake",
+        "total_play_time_minutes": "120"
+      }
+    },
+    {
+      "username": "john_doe",
+      "password": "securepass456",
+      "email": "john.doe@example.com",
+      "profile": {
+        "first_name": "John",
+        "last_name": "Doe",
+        "date_of_birth": "1988-11-23",
+        "bio": "Competitive gamer and streamer",
+        "favorite_game": "Chess",
+        "total_play_time_minutes": "240"
+      }
+    },
+    {
+      "username": "alice_wonder",
+      "password": "wonderland789",
+      "email": "alice.wonder@example.com",
+      "profile": {
+        "first_name": "Alice",
+        "last_name": "Wonder",
+        "date_of_birth": "1995-03-10",
+        "bio": "Fantasy game enthusiast",
+        "favorite_game": "RPG",
+        "total_play_time_minutes": "180"
+      }
+    },
+    {
+      "username": "bob_builder",
+      "password": "buildIt2024",
+      "email": "bob.builder@example.com",
+      "profile": {
+        "first_name": "Bob",
+        "last_name": "Builder",
+        "date_of_birth": "1992-09-05",
+        "bio": "Strategy game master",
+        "favorite_game": "Civilization",
+        "total_play_time_minutes": "300"
+      }
+    },
+    {
+      "username": "emma_gamer",
+      "password": "gameon5678",
+      "email": "emma.gamer@example.com",
+      "profile": {
+        "first_name": "Emma",
+        "last_name": "Gamer",
+        "date_of_birth": "1993-07-20",
+        "bio": "Casual gamer and puzzle solver",
+        "favorite_game": "Tetris",
+        "total_play_time_minutes": "90"
+      }
+    },
+    {
+      "username": "dougwars_adams",
+      "password": "vewwymisterious",
+      "email": "dougwars@adams.com"
+    }
+  ],
+  "achievements": [
+    {
+      "game": "Snake",
+      "name": "Snake Ultimate Champion",
+      "description": "Finished the Game, Snake occupied the entire board.",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "Apple A Day, Keeps the Doctor Away",
+      "description": "Ate 10000 apples",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "HighScore Warrior",
+      "description": "You achieved a highscore on the leaderboard!",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "You're Golden",
+      "description": "Ate 10 Golden Apples in one game",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "Amazing Score",
+      "description": "Scored over 1000 points in a game",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "Speedy Snake",
+      "description": "Ate 10 Speed Berry's in One Game",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "That's a long Snake",
+      "description": "Achieved Snake length of over 100 lengths!",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "Mushroom King",
+      "description": "Ate 20 Magic Mushrooms in one game",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "Perfection",
+      "description": "Won the game and collected every golden apple!!",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "AchievementChampion",
+      "description": "Acquired 10 Achievements!",
+      "points": 0,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "Score2",
+      "description": "Reached a score of 2 or more",
+      "points": 10,
+      "image": "filepath/goes/here"
+    },
+    {
+      "game": "Snake",
+      "name": "Score5",
+      "description": "Reached a score of 5 or more",
+      "points": 25,
+      "image": "filepath/goes/here"
+    }
+  ],
+  "userAchievements": [
+    {
+      "username": "jane_smith",
+      "achievementName": "Snake Ultimate Champion"
+    },
+    {
+      "username": "john_doe",
+      "achievementName": "Apple A Day, Keeps the Doctor Away"
+    },
+    {
+      "username": "alice_wonder",
+      "achievementName": "HighScore Warrior"
+    },
+    {
+      "username": "bob_builder",
+      "achievementName": "You're Golden"
+    },
+    {
+      "username": "emma_gamer",
+      "achievementName": "Amazing Score"
+    }
+  ],
+  "leaderboards": [
+    {
+      "name": "Martin",
+      "score": 1,
+      "gametype": "bomberman"
+    },
+    {
+      "name": "Ani",
+      "score": 3,
+      "gametype": "bomberman"
+    },
+    {
+      "name": "Dan",
+      "score": 5,
+      "gametype": "bomberman"
+    },
+    {
+      "name": "Li",
+      "score": 4,
+      "gametype": "bomberman"
+    },
+    {
+      "name": "Jacob",
+      "score": 2,
+      "gametype": "bomberman"
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+[
+    {
+        "name" : "Biting Frost",
+        "description" : "Best part about frost... bodies of the fallen don't rot so quickly.",
+        "identifier" : "we_0001",
+        "type" : "WEATHER",
+        "faction" : "Neutral",
+        "ability" : "Frost"
+    },
+    {
+        "name" : "Impenetrable Fog",
+        "description" : "A good commander's dream... a bad one's horror.",
+        "identifier" : "we_0002",
+        "type" : "WEATHER",
+        "faction" : "Neutral",
+        "ability" : "Fog"
+    },
+    {
+        "name" : "Torrential Rain",
+        "description" : "Even the rain in this land smells like piss.",
+        "identifier" : "we_0003",
+        "type" : "WEATHER",
+        "faction" : "Neutral",
+        "ability" : "Rain"
+    },
+    {
+        "name" : "Clear Weather",
+        "description" : "The sun's still shining... somewhere.",
+        "identifier" : "we_0004",
+        "type" : "WEATHER",
+        "faction" : "Neutral",
+        "ability" : "Clear"
+    },
+    {
+        "name" : "Ballista",
+        "description" : "Usually we give 'em female names. 'Like Jenny?' 'More like Bertha.'",
+        "identifier" : "nr_0001",
+        "type" : "SIEGE",
+        "power" : 6,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Blue Stripes Commando",
+        "description" : "I'll do anything for Temeria. Mostly, though, I kill for her.",
+        "identifier" : "nr_0002",
+        "type" : "MELEE",
+        "power" : 4,
+        "faction" : "Northern Realms",
+        "ability" : "Bond"
+    },
+    {
+        "name" : "Catapult",
+        "description" : "The gods help those who have better catapults.",
+        "identifier" : "nr_0003",
+        "type" : "SIEGE",
+        "power" : 8,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Crinfrid Reavers Dragon Hunter",
+        "description" : "Haven't had much luck with monsters of late, so we enlisted.",
+        "identifier" : "nr_0004",
+        "type" : "RANGE",
+        "power" : 5,
+        "faction" : "Northern Realms",
+        "ability" : "Bond"
+    },
+    {
+        "name" : "Dethmold",
+        "description" : "I once made a prisoner vomit his own entrails... Ah! Good times...",
+        "identifier" : "nr_0005",
+        "type" : "RANGE",
+        "power" : 6,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Dun Banner Medic",
+        "description" : "Stitch red to red, white to white, and everything'll be alright.",
+        "identifier" : "nr_0006",
+        "type" : "SIEGE",
+        "power" : 5,
+        "faction" : "Northern Realms",
+        "ability" : "Medic"
+    },
+    {
+        "name" : "Esterad Thyssen",
+        "description" : "Like all Thyssen men, he was tall, powerfully built and criminally handsome.",
+        "identifier" : "nr_0007",
+        "type" : "MELEE",
+        "power" : 10,
+        "faction" : "Northern Realms",
+        "ability" : "Hero"
+    },
+    {
+        "name" : "John Natalis",
+        "description" : "That Square should bear the names of my soldiers, of the dead. Not mine.",
+        "identifier" : "nr_0008",
+        "type" : "MELEE",
+        "power" : 10,
+        "faction" : "Northern Realms",
+        "ability" : "Hero"
+    },
+    {
+        "name" : "Kaedweni SIEGE Expert",
+        "description" : "'You gotta recalibrate the arm by 5 degrees.' 'Do what by the what now?'",
+        "identifier" : "nr_0009",
+        "type" : "SIEGE",
+        "power" : 1,
+        "faction" : "Northern Realms",
+        "ability" : "Morale"
+    },
+    {
+        "name" : "Keira Metz",
+        "description" : "If I'm to die today. I wish to look smashing for the occasion.",
+        "identifier" : "nr_0010",
+        "type" : "RANGE",
+        "power" : 5,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Phillipa Eilhart",
+        "description" : "Soon the power of the kings will wither, and the Lodge shall seize its rightful place.",
+        "identifier" : "nr_0011",
+        "type" : "RANGE",
+        "power" : 10,
+        "faction" : "Northern Realms",
+        "ability" : "Hero"
+    },
+    {
+        "name" : "Poor F*cking Infantry",
+        "description" : "I's a war veteran! ... spare me a crown?",
+        "identifier" : "nr_0012",
+        "type" : "MELEE",
+        "power" : 1,
+        "faction" : "Northern Realms",
+        "ability" : "Bond"
+    },
+    {
+        "name" : "Prince Stennis",
+        "description" : "He ploughin' wears golden armor. Golden. 'Course he's an arsehole.",
+        "identifier" : "nr_0013",
+        "type" : "MELEE",
+        "power" : 5,
+        "faction" : "",
+        "ability" : "Spy"
+    },
+    {
+        "name" : "Redanian Foot Soldier",
+        "description" : "I've bled for Redania! I've killed for Redania!",
+        "identifier" : "nr_0014",
+        "type" : "MELEE",
+        "power" : 1,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Sabrina Glevissig",
+        "description" : "Daughter of the Kaedweny Wilderness",
+        "identifier" : "nr_0015",
+        "type" : "RANGE",
+        "power" : 4,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Sheldon Skaggs",
+        "description" : "I was there, on the front lines! Right where the fightin' was thickest!",
+        "identifier" : "nr_0016",
+        "type" : "RANGE",
+        "power" : 4,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "SIEGE Tower",
+        "description" : "I love the clamor of siege towers in the morning. Sounds like victory.",
+        "identifier" : "nr_0017",
+        "type" : "SIEGE",
+        "power" : 6,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Siegfried of Denesle",
+        "description" : "We're on the same side, witcher. You'll realize this one day.",
+        "identifier" : "nr_0018",
+        "type" : "MELEE",
+        "power" : 5,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Sigismund Dijkstra",
+        "description" : "Gwent's like politics, just more honest.",
+        "identifier" : "nr_0019",
+        "type" : "MELEE",
+        "power" : 4,
+        "faction" : "Northern Realms",
+        "ability" : "Spy"
+    },
+    {
+        "name" : "Sile fe Tanasarville",
+        "description" : "The Lodge lacks humility. Our lust for power may yet be our undoing.",
+        "identifier" : "nr_0020",
+        "type" : "MELEE",
+        "power" : 4,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Thaler",
+        "description" : "We aren't all ploughin' philanderers. Some of us have depth…",
+        "identifier" : "nr_0021",
+        "type" : "SIEGE",
+        "power" : 1,
+        "faction" : "Northern Realms",
+        "ability" : "Spy"
+    },
+    {
+        "name" : "Trebuchet",
+        "description" : "Castle won't batter itself down, now will it? Get them trebuchets rollin'!",
+        "identifier" : "nr_0022",
+        "type" : "SIEGE",
+        "power" : 6,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Vernon Roche",
+        "description" : "A patriot... and a real son of a bitch.",
+        "identifier" : "nr_0023",
+        "type" : "MELEE",
+        "power" : 10,
+        "faction" : "Northern Realms",
+        "ability" : "Hero"
+    },
+    {
+        "name" : "Ves",
+        "description" : "Better to live one day as a kind than a whole life as a beggar.",
+        "identifier" : "nr_0024",
+        "type" : "MELEE",
+        "power" : 5,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    },
+    {
+        "name" : "Yarpen",
+        "description" : "The world belongs to whoever's best at crackin' skulls and impregnatin' lasses.",
+        "identifier" : "nr_0025",
+        "type" : "MELEE",
+        "power" : 2,
+        "faction" : "Northern Realms",
+        "ability" : ""
+    }
+]

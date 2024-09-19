@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "minigames"
+include "common"
+include "server"
+include "client"

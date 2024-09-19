@@ -1,0 +1,58 @@
+plugins {
+    id 'application'
+    id 'java'
+}
+
+application {
+    mainClass = 'minigames.server.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+def vertxVersion = '4.3.2'
+def junitJupiterVersion = '5.8.2'
+
+dependencies {
+    api project(":common")
+
+    implementation "io.vertx:vertx-core:$vertxVersion"
+    implementation "io.vertx:vertx-web:$vertxVersion"
+    implementation "io.vertx:vertx-auth-common:$vertxVersion"
+    implementation "io.vertx:vertx-auth-oauth2:$vertxVersion"
+    implementation "io.vertx:vertx-auth-jwt:$vertxVersion"
+    implementation "io.vertx:vertx-web-client:$vertxVersion"
+
+    // dependencies required for the mail client
+    implementation group: 'io.vertx', name: 'vertx-mail-client', version: '4.3.2'
+        
+    // .env file support (used for storing mail server credentials)
+    implementation group: 'io.github.cdimascio', name: 'dotenv-java', version: '3.0.0'
+
+    implementation group: 'com.google.inject', name: 'guice', version: '5.1.0'
+    implementation group: 'javax.inject', name: 'javax.inject', version: '1'
+    
+    // Enables Jackson Databind for serialisation of basic Java types
+    implementation group: "com.fasterxml.jackson.core", name: "jackson-databind", version: "2.13.3"
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.3'
+
+    implementation 'org.apache.derby:derby:10.16.1.1'
+    implementation 'org.apache.derby:derbyshared:10.16.1.1'
+
+    // Vert.x test dependencies
+    testImplementation "io.vertx:vertx-junit5:$vertxVersion"
+    testImplementation "io.vertx:vertx-web-client:$vertxVersion"
+
+    // JUnit Jupiter dependencies
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitJupiterVersion"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitJupiterVersion"
+}
+
+test {
+    useJUnitPlatform()
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}

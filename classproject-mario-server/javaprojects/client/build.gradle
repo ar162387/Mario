@@ -1,0 +1,24 @@
+plugins {
+    id 'application'
+    id "org.openjfx.javafxplugin" version "0.1.0"
+}
+
+application {
+    // Define the main class for the application
+    mainClass = 'minigames.client.Main'
+}
+
+javafx {
+    version = "21"
+    modules = [ 'javafx.base', 'javafx.controls', 'javafx.fxml', 'javafx.swing' ]
+}
+
+dependencies {
+    api project(":common")
+
+    implementation group: 'io.vertx', name:'vertx-core', version: '4.3.2'
+    implementation group: 'io.vertx', name:'vertx-web-client', version: '4.3.2'
+    // Enables Jackson Databind for serialisation of basic Java types
+    runtimeOnly group: "com.fasterxml.jackson.core", name: "jackson-databind", version: "2.13.3"
+}
+

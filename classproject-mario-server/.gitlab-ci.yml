@@ -1,0 +1,12 @@
+stages:
+  - deploy
+
+deploy_bomberman_server:
+  stage: deploy
+  only:
+    - bomberman-development   # Specify the branch
+  script:
+    - echo "Deploying the Bomberman server..."
+    - cd javaprojects
+    - ./gradlew server:run --args="41234" &  # Run the server in the background
+    - echo "Bomberman server deployment complete."
